@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .bg-container{
+                background-color:rgb(69, 156, 69);
+                width:1050px;
+                height:850px;
+                justify-content: center;
+            }
+            header{
+                display:flex;
+                justify-content: center;
+            }
+            .heading{
+                font-size:34px;
+                font-family:"Roboto";
+                text-align:center;
+            }
+            .special{
+                font-weight:bold;
+                text-decoration: underline;
+            }
+            .dove-img{
+                width:70px;
+                height:70px;
+                padding-left:60px;
+            }
+            ul{
+                list-style-type: none;
+                background-color:rgb(79, 245, 79);
+                display:flex;
+                flex-direction:row;
+                justify-content: space-between;
+            }
+            .nav-link{
+                padding:20px;
+            }
+
+            .main{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-around;
+                
+                
+
+            }
+            .container{
+                background-color: rgb(79, 245, 79);
+                margin:12px;
+                
+            }
+            .para{
+                width:550px;
+                padding:20px;
+                height:250px;
+            }
+            .birds-img{
+                display:flex;
+                flex-direction:row;
+                margin:10px;
+            }
+            .fav-img{
+                width:180px;
+                height:180px;
+                border-width: 10px;
+                margin:10px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="bg-container">
+            <header>
+                <h1 class="heading">BIRDWATCHING</h1> 
+                <img src="https://res.cloudinary.com/ramya44/image/upload/v1653304977/dove_lymqdq.png"
+                alt="Dove" class="dove-img"/>
+            </header>
+            <nav>
+                <ul>
+                  <li class="nav-link">HOME</li>
+                  <li class="nav-link">GET STARTED</li>
+                  <li class="nav-link">PHOTOS</li>
+                  <li class="nav-link">GEAR</li>
+                  <li class="nav-link">FORUM</li>
+                </ul>
+            </nav>
+            <main class="main">
+                <article class="container">
+                    <h2 class="heading"><span class="special">W</span>ELCOME</h2>
+                    <p class="para">Welcome to our fake birdwatching site. if this were a real site, it would be the ideal place to come to learn about birdwatching.
+                        whether you are a beginner looking to learn hoe to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.
+                    <br>
+                    <br>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+                </article>
+                <aside class="container">
+                    <h2 class="heading"><span class="special">F</span>AVORITE PHOTES</h2>
+                    <div class="birds-img">
+                        <img src="https://res.cloudinary.com/ramya44/image/upload/v1653305733/favorite-1_qagtp6.jpg"
+                        alt="fav 1" class="fav-img"/>
+                        <img src="https://res.cloudinary.com/ramya44/image/upload/v1653305741/favorite-2_th_llrpu1.jpg"
+                        alt="fav 2" class="fav-img"/>
+                    </div>
+                    <div class="birds-img">
+                        <img src="https://res.cloudinary.com/ramya44/image/upload/v1653305750/favorite-3_k2jgrp.jpg"
+                        alt="fav 3" class="fav-img"/>
+                        <img src="https://res.cloudinary.com/ramya44/image/upload/v1653305759/favorite-4_wd6hzx.jpg"
+                        alt="fav 4" class="fav-img"/>
+                    </div>
+                </aside>
+            </main>
+            <footer>
+                <p class="para">This fake website example is CCO - any part of this code may be resued in any way you wish. Original example written by Chirs Mills, 2016.<br>
+                    <a href="#">Dove Icon</a>by Lorc.</p>
+            </footer>
+        </div>
+    </body>
+</html>
